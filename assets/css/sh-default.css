@@ -1,0 +1,47 @@
+#headerwrap {
+    background-position-x: initial;
+    background-position-y: initial;
+    -webkit-background-size: initial initial;
+    -o-background-size: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-image: none;
+    font-weight: 100;
+    font-family: "trebuchet ms"
+}
+.icon.icon-heart {
+    background-color: transparent;
+    height: 30px;
+    width: 65px
+}
+b {
+    background-color: rgba(239, 17, 17, 0);
+    background-position-x: initial;
+    background-position-y: initial;
+    -webkit-background-size: initial initial;
+    -o-background-size: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-image: none
+}
+#headerwrap h1 {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-family: helvetica;
+    font-weight: 700;
+    text-shadow: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+    margin-top: 90px;
+    margin-bottom: 90px
+}
+.textdivider h1 {
+    font-size: 40px
+}
