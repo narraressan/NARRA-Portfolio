@@ -1,0 +1,31 @@
+LEAL: API - layers
+
+Data In: (Entry Stage: Keyboard, Camera, Microphone)
+	Entry - Peripheral Level
+		- speech to text -
+		
+
+	Brain Process
+		(LEAL-knows) default: list of task capable to do e.g. triggered by command key words (do, open, listen etc.)
+			--> [direct-google-search, direct-gemail, direct-fb, media(img/audio/video), browse-net, schedule]
+		
+		(LEAL-conversation) rive script categorized in 4 type of sentences 
+			--> input: statement ---> output: answer (rivescript db - pre written)
+				if knowsScenraio && hasAnswer: 
+					return answer
+				else: 
+					record Scenario
+					ask answer
+					record answer
+					return confirmedRemember
+			--> input: exclamation ---> output: answer ("calm down, dont shout, are you angry?")
+			--> input: question ---> output: answer ("google says")
+			--> input: command/request ---> output: answer (get from "LEAL-knows")
+		
+	
+	Exit - Peripheral Level
+		- text to speech -
+
+
+Limitation:
+	v1- no auto learning capacity for "LEAL-knows"
