@@ -1,4 +1,12 @@
 
+/* BASE */
+	.narra-info-light, center > p { font-weight: 300; }
+
+	.narra-info-light a { 
+		font-weight: 500; 
+		color: #3498DB;
+	}
+
 /* NAVIGATION */
 	.narra-navbar-toggle { margin: 0px 5px 0px 0px; }
 
@@ -24,16 +32,27 @@
 		font-weight: 600;
 	}
 
-	.narra-navbar, .narra-footer { background-color: #27272B; }
+	.narra-navbar, .narra-footer { 
+		background-color: #27272B; 
+		box-shadow: 0px 0px 20px #080808;
+	}
 
 	.narra-banner {
-		background-color: pink;
+		/*background-color: pink;*/
+		background: url("https://static.pexels.com/photos/432183/pexels-photo-432183.jpeg") no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+
 		min-height: 300px;
 		margin-top: 45px;
 	}
 
+/* SMALL STRIP */
 	.narra-small-strip {
-		padding: 20px;
+		padding-top: 20px;
+		padding-bottom: 20px;
 		/*letter-spacing: 1px;*/
 	}
 
@@ -46,6 +65,7 @@
 		font-weight: 100;
 		color: #777;
 		margin-right: 5px;
+		display: inline-block;
 	}
 
 	.narra-small-strip span.clear { 
@@ -53,17 +73,50 @@
 		font-weight: 600;
 	}
 
+	.narra-small-strip span.equals { display: none; }
+
+/* BIG STRIP */
 	.narra-big-strip {
+		/*padding-top: 30px;*/
+		/*padding-bottom: 30px;*/
+		background-color: #F5F5F5;
+	}
+
+	.narra-big-strip .row > div {
 		padding-top: 30px;
 		padding-bottom: 30px;
 	}
 
+	.narra-big-strip .lnr {
+		font-size: 5rem !important;
+		font-weight: bold;
+	}
+
+/* ME, MYSELF & I */
+	.narra-me-myself-i {
+		padding-top: 50px;
+		padding-bottom: 50px;
+		background-color: #1B1B1F;
+		color: #fff;
+	}
+
+	.narra-me-myself-i .narra-info-light, 
+	.narra-me-myself-i center > p { 
+		font-size: 1.35rem; 
+		line-height: 1.5;
+	}
+
+	.narra-me-myself-i img.img-circle { border: 3px solid #777777; }
+
 /* footer */
 	.narra-footer { 
-		padding: 10px;
+		padding-top: 10px;
 		color: #fff;
 		font-weight: 300;
-		letter-spacing: 1px;
+		/*letter-spacing: 1px;*/
+		border: none;
+		height: 45px;
+		font-size: 1.3rem;
 	}
 
 
@@ -79,11 +132,18 @@
 	/* Larger than tablet */
 	@media (min-width: 750px) {
 		.narra-banner { height: 500px; }
+
+		.narra-footer { 
+			letter-spacing: 1px; 
+			font-size: 1.5rem;
+		}
 	}
 
 	/* Larger than desktop */
 	@media (min-width: 1000px) {
 		.narra-banner { height: 500px; }
+
+		.narra-small-strip span.equals { display: inline; }
 	}
 
 	/* Larger than Desktop HD */
