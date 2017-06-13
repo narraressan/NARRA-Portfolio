@@ -150,6 +150,9 @@
 		cursor: pointer;
 	}
 
+	.narra-expertise-widget { opacity: 0.3; }
+	.narra-expertise-widget:hover { opacity: 1; }
+
 	.narra-expertise-more { padding: 5px 6%; }
 
 	.narra-expertise-more a, 
