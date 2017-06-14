@@ -42,6 +42,16 @@
 	box-shadow: 0px 12px 40px #080808;
 }
 
+.timeline ul li .content p {
+	font-size: 1.4rem;
+	font-weight: 300;
+	line-height: 1.5;
+}
+
+.timeline ul li .content .img-responsive {
+	padding: 20px;
+}
+
 .timeline ul li .content:before {
 	content: '';
 	background: #353943;
