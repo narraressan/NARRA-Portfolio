@@ -52,6 +52,10 @@ http://propeller.in/get-started/
 
 http://materializecss.com/getting-started.html
 
+https://github.com/lightningtgc/MProgress.js
+http://adcentury.github.io/material-spinner/
+https://github.com/FezVrasta/snackbarjs
+
 *****
 -- DONE -- 
 metro-bootstrap
