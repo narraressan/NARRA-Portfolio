@@ -52,6 +52,8 @@ http://propeller.in/get-started/
 
 http://materializecss.com/getting-started.html
 
+http://gionkunz.github.io/chartist-js/getting-started.html
+
 *****
 -- DONE -- 
 metro-bootstrap
