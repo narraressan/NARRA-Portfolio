@@ -1,0 +1,477 @@
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="assets/img/logoNarra.ico">
+		<!-- Title specifics -->
+		<title>@Narra</title>
+
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+		<!-- Bootstrap - Semi-Flat - Bootswatch -->
+		<link rel="stylesheet" href="https://bootswatch.com/3/yeti/bootstrap.min.css">
+
+		<!-- local - css -->
+		<link rel="stylesheet" href="https://ricostacruz.com/nprogress/nprogress.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/main@narra.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/timeline@narra.css">
+
+		<!-- https://linearicons.com/free#cdn -->
+		<link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+
+		<!-- vuejs dependency -->
+		<script src="https://unpkg.com/vue/dist/vue.js"></script>
+		<script src="https://unpkg.com/vue-chartjs@2.6.0/dist/vue-chartjs.full.min.js"></script>
+		<script src="https://ricostacruz.com/nprogress/nprogress.js"></script>
+
+		<!-- vue - watchers control -->
+		<script src="https://unpkg.com/axios@0.12.0/dist/axios.min.js"></script>
+		<script src="https://unpkg.com/lodash@4.13.1/lodash.min.js"></script>
+		
+		<!-- JS Dependencies -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+
+	<body>
+		
+		<div id="narra-vue">
+			<div v-cloak class="cloak">
+
+				<!-- https://www.portfoliobox.net/ -->
+				<!-- http://www.wix.com/website-template/view/html/1885?originUrl=http%3A%2F%2Fwww.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Fdesign%2Fportfolio%2F1&bookName=create-master-new&galleryDocIndex=3&category=design&metaSiteId= -->
+
+
+				<!-- navigation -->
+				<nav class="navbar navbar-default navbar-fixed-top narra-navbar">
+					<div class="container">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed narra-navbar-toggle" data-toggle="collapse" data-target="#narra-navbar">
+								<span class="lnr lnr-menu"></span>
+							</button>
+							<a class="navbar-brand narra-brand" href="#">NARRA</a>
+						</div>
+
+						<div class="collapse navbar-collapse" id="narra-navbar">
+							<ul class="nav navbar-nav navbar-right narra-menu-link">
+								<li><a data-scroll href="#me_myself_i">ME, MYSELF & <b>i</b></a></li>
+								<li><a data-scroll href="#expertise">EXPERTISE</a></li>
+								<li><a data-scroll href="#timeline">TIMELINE</a></li>
+								<li><a data-scroll href="#contact">CONTACT</a></li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+
+				<!-- banner -->
+				<div class="container-fluid narra-banner" id="home">
+					<center>
+						<h1><b>NARRA</b></h1>
+						<hr>
+                   		<h3>"Don't worry if it doesn’t work right. If everything did, you’d be out your job."</h3>
+                   		<p><b>- Mosher’s Law of Software Engineering -</b></p>
+					</center>
+				</div>
+
+				<!-- strip: SMALL -->
+				<div class="narra-small-strip">
+					<div class="container">
+						<div class="row text-center narra-fade-li">
+							<span class="clear">SPEED + EXCELLENCE + PASSION</span>
+							<span><b>=</b></span>
+							<span><a data-scroll href="#home"><b>Effective Service & Client Satisfaction</b></a></span>
+							<span><span class="equals">&nbsp;| &nbsp;</span><b>LETS GET THAT IDEA KICK-STARTED!</b></span>
+						</div>
+					</div>
+				</div>
+
+				<!-- strip: BIG -->
+				<div class="narra-big-strip">
+					<div class="container">
+						<div class="row">
+							<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 narra-fade-li">
+								<center>
+									<span class="lnr lnr-layers"></span>
+									<h2>Full Stack Dev</h2>
+									<br>
+									<p>I am flexible working cover-to-cover, front-to-back, upside down, team or no team. I believe that a real full-stack developer knows no bounds.</p>
+								</center>
+							</div>
+							<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 narra-fade-li">
+								<center>
+									<span class="lnr lnr-highlight"></span>
+									<h2>UI/UX Specialist</h2>
+									<br>
+									<p>I adhere to the latest design principles & ideas. I don't only account for the beauty & aesthetics of the interface but above all the experience.</p>
+								</center>
+							</div>
+							<div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-xs-12 narra-fade-li">
+								<center>
+									<span class="lnr lnr-code"></span>
+									<h2>Code Lover</h2>
+									<br>
+									<p>I support and give credits to the open-source community for helping programmers innovate and learn new technologies.</p>
+								</center>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- ME, MYSELF & I -->
+				<div class="narra-me-myself-i" id="me_myself_i">
+					<div class="container">
+						<div class="row">
+							<div class="col-xl-3 col-lg-3 col-md-4 col-sm-12 col-xs-12 narra-fade-li">
+								<center>
+									<img src="assets/img/me.png" class="img-responsive img-circle" style="height: 150px;"><br>
+									<h4>Adean <b style="color:#3498DB;">NARRA</b> Ressan</h4>
+									<hr style="margin: 0px 0px 10px 0px;border-color: #777;">
+									<p class="narra-info-light"><a href="javascript:">adeanladia0129@gmail.com</a><br>+63 928 307 8936</p>
+									<br>
+								</center>
+							</div>
+
+							<div class="col-xl-9 col-lg-9 col-md-8 col-sm-12 col-xs-12 narra-fade-li">
+								<h3>Greetings! Let me tell you about me...</h3><br>
+								<ul>
+									<li><p class="narra-info-light">I took Information Technology major in Database at <a href="http://www.msugensan.edu.ph">Mindanao State University, GSC, Philippines</a> and graduated in 2016.</p></li>
+									<li><p class="narra-info-light">I started my full-stack developer career way back in College. Now, I have a few years	of experience in various fields such as web, desktop and mobile app development, database management, system maintenance, web scraping, data warehousing, animation, UI/UX, and usage of other dev platforms and programming languages.</p></li>
+									<li><p class="narra-info-light">I have worked with various startup businesses which you can check on my	<a data-scroll href="#timeline">work history</a>.</p></li>
+									<li><p class="narra-info-light">Here is my <a href="https://drive.google.com/open?id=0B8cQKd4H0kfdaC1lNDhCYUdCUUk">CV</a> for you referral. Thank you for visiting.</p></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- EXPERTISE -->
+				<div class="narra-expertise" id="expertise">
+					<div class="container">
+						<div class="row">
+							<div class="col-xl-12 narra-fade-li">
+								<center>
+									<h3 class="narra-expertise-title">MY EXPERTISE</h3>
+									<small class="narra-expertise-subtitle">- YES, THIS CAN BE BIAS. BUT YOU CAN SEE FOR YOURSELF -</small>
+								</center>
+							</div>
+						</div>
+						<br>&nbsp;</br>
+						<div class="row narra-fade-li">
+							<!-- web -->
+								<div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-12 narra-expertise-widget">
+									<center>
+										<img src="https://upload.wikimedia.org/wikipedia/commons/5/53/Vue.js_Logo.svg" class="img-responsive narra-icon">
+										<a href="#" class="narra-label">VUE</a>
+									</center>
+									<!-- <div class="progress narra-progress">
+										<div class="progress-bar" style="width: 60%;"></div>
+									</div> -->
+								</div>
+
+								<div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-12 narra-expertise-widget">
+									<center>
+										<img src="http://riotjs.com/img/logo/riot240x.png" class="img-responsive narra-icon">
+									</center>
+									<!-- <div class="progress narra-progress">
+										<div class="progress-bar" style="width: 60%;"></div>
+									</div> -->
+								</div>
+
+								<div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-12 narra-expertise-widget">
+									<center>
+										<img src="http://artlyticalmedia.com/images/technologies/angularjs.png" class="img-responsive narra-icon">
+										<a href="#" class="narra-label">ANGULAR 1.x</a>
+									</center>
+								</div>
+
+								<div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-12 narra-expertise-widget">
+									<center>
+										<img src="https://cdn.worldvectorlogo.com/logos/react.svg" class="img-responsive narra-icon">
+										<a href="#" class="narra-label">REACT</a>
+									</center>
+								</div>
+
+								<div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-12 narra-expertise-widget">
+									<center>
+										<img src="https://nodejs.org//static/images/logo.svg" class="img-responsive narra-icon">
+									</center>
+								</div>
+
+							<!-- mobile -->
+								<div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-12 narra-expertise-widget">
+									<center>
+										<img src="https://telerikhelper.files.wordpress.com/2015/11/cordova-logo.png" class="img-responsive narra-icon">
+										<a href="#" class="narra-label">CORDOVA</a>
+									</center>
+								</div>
+
+								<div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-12 narra-expertise-widget">
+									<center>
+										<img src="http://pngimg.com/uploads/android_logo/android_logo_PNG3.png?i=1" class="img-responsive narra-icon">
+									</center>
+								</div>
+
+							<!-- desktop -->
+								<div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-12 narra-expertise-widget">
+									<center>
+										<img src="https://marketplace.automic.com/assets/uploads/images/docker.png" class="img-responsive narra-icon">
+									</center>
+								</div>
+
+								<div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-12 narra-expertise-widget">
+									<center>
+										<img src="https://comsysto.files.wordpress.com/2015/09/electorn-logo-2.png?w=300&h=300" class="img-responsive narra-icon">
+									</center>
+								</div>
+
+							<!-- databases -->
+								<div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-12 narra-expertise-widget">
+									<center>
+										<img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/45/MongoDB-Logo.svg/527px-MongoDB-Logo.svg.png" class="img-responsive narra-icon">
+									</center>
+								</div>
+
+								<div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-12 narra-expertise-widget">
+									<center>
+										<img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/f8/CouchDB.svg/527px-CouchDB.svg.png" class="img-responsive narra-icon">
+									</center>
+								</div>
+
+								<div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-12 narra-expertise-widget">
+									<center>
+										<img src="https://wiki.postgresql.org/images/3/30/PostgreSQL_logo.3colors.120x120.png" class="img-responsive narra-icon">
+										<a href="#" class="narra-label">PSQL</a>
+									</center>
+								</div>
+
+								<div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-12 narra-expertise-widget">
+									<center>
+										<img src="https://upload.wikimedia.org/wikipedia/en/thumb/6/62/MySQL.svg/527px-MySQL.svg.png" class="img-responsive narra-icon">
+									</center>
+								</div>
+
+							<!-- ui -->
+								<div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-12 narra-expertise-widget">
+									<center>
+										<img src="https://cdn.worldvectorlogo.com/logos/creative-cloud-cc.svg" class="img-responsive narra-icon" style="padding: 10px;">
+										<a href="#" class="narra-label">ADOBE CC</a>
+									</center>
+								</div>
+
+							<!-- languages -->
+								<div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-12 narra-expertise-widget">
+									<center>
+										<img src="http://logos-download.com/wp-content/uploads/2016/10/Java_logo_icon.png" class="img-responsive narra-icon">
+									</center>
+								</div>
+
+								<div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-12 narra-expertise-widget">
+									<center>
+										<img src="http://www.pngall.com/wp-content/uploads/2016/05/Python-Logo-PNG-Image.png" class="img-responsive narra-icon">
+									</center>
+								</div>
+
+								<div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-12 narra-expertise-widget">
+									<center>
+										<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/400px-PHP-logo.svg.png" class="img-responsive narra-icon">
+									</center>
+								</div>
+
+								<div class="col-xl-3 col-lg-3 col-md-4 col-sm-6 col-xs-12 narra-expertise-widget">
+									<center>
+										<img src="https://codeigniter.com/assets/images/ci-logo-big.png" class="img-responsive narra-icon">
+										<a href="#" class="narra-label">CODE iGNITER</a>
+									</center>
+								</div>
+
+							<!-- affiliations -->
+								<div class="col-xl-3 col-lg-3 col-md-12 col-sm-12 col-xs-12 narra-expertise-more">
+									<center>
+										<span class="lnr lnr-download"></span>
+										<a href="https://drive.google.com/file/d/0B8cQKd4H0kfdaC1lNDhCYUdCUUk/view?usp=sharing" _target="blank" class="narra-label">Download my CV & Resume for more details</a>
+									</center>
+								</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- TIMELINE -->
+				<div class="narra-timeline" id="timeline">
+					<div class="container">
+						<div class="row">
+							<div class="col-xl-12">
+								<section class="timeline">
+									<ul>
+										<li class="narra-fade-li">
+											<div class="content">
+												<h4><b>2016 - Now</b></h4>
+												<p>I am currently employed as a software developer at <a href="http://samatosa.com/"><b>Samatosa</b></a>. We are working with Microsoft on a web scraping project called <a href="http://detailonline.com/"><b>Detail</b></a>.</p>
+												<center><img src="http://perfectcircle.se/detailonline/wp-content/uploads/2016/11/detail_logo_vit_med_tag-205x98.png" class="img-responsive"></center>
+											</div>
+										</li>
+										<li class="narra-fade-li">
+											<div class="content">
+												<h4><b>2017 - Corduro Inc.</b></h4>
+												<p>Currently a part-time programmer at <a href="http://www.corduro.com/"><b>Corduro Inc.</b></a> We build and maintain various web apps like as event portals and <a href="http://monticelloliquor.com/"><b>online stores</b></a>.</p>
+												<center><img src="http://www.corduro.com/wp-content/uploads/2013/05/CORDURO-R.png" class="img-responsive"></center>
+											</div>
+										</li>
+										<li class="narra-fade-li">
+											<div class="content">
+												<h4><b>2017 - Template-Ted</b></h4>
+												<p>I worked with the team from <a href="https://templateted.com/"><b>Template-Ted</b></a> to create an email template editor with <a href="http://grapesjs.com/"><b>GrapesJS</b></a>. I worked through alpha and beta testing before I moved to another project.</p>
+												<center><img src="https://templateted.com/assets/images/logo.png" class="img-responsive"></center>
+											</div>
+										</li>
+										<li class="narra-fade-li">
+											<div class="content">
+												<h4><b>2017 - Linkedin - PX</b></h4>
+												<p>I was hired by a startup company called <a href="http://explodinkmedia.com/"><b>Explodink Inc.</b></a> on a project aliased "<b>Project-X</b>". A desktop lead sniper using Linkedin APIs. You can check on it soon after its debut!</p>
+											</div>
+										</li>
+										<li class="narra-fade-li">
+											<div class="content">
+												<h4><b>2017 - Maestro</b></h4>
+												<p>I worked with "<b>Maestro</b>" - an online school, on a project for setting up some of their mockups for their new dashboard.</p>
+												<center><img src="assets/img/screenshots/maestro.png" class="img-responsive"></center>
+											</div>
+										</li>
+										<li class="narra-fade-li">
+											<div class="content">
+												<h4><b>2017 - Biological Health Services</b></h4>
+												<p>I was hired by <a href="https://www.biologicalhealthservices.com.au/"><b>BHS</b></a> to build them a private form builder similar to <a href="http://grapesjs.com/"><b>GrapesJS</b></a>.</p>
+												<center><img src="assets/img/screenshots/bhs.PNG" class="img-responsive"></center>
+											</div>
+										</li>
+										<li class="narra-fade-li">
+											<div class="content">
+												<h4><b>2016 - Skedluxe</b></h4>
+												<p>I worked with <a href="http://skedluxe.com/"><b>Skedluxe</b></a> - an online driving school, to create their very own student management system and their website.</p>
+												<center><img src="assets/img/screenshots/skedluxe.PNG" class="img-responsive"></center>
+											</div>
+										</li>
+										<li class="narra-fade-li">
+											<div class="content">
+												<h4><b>2016 - POADIS</b></h4>
+												<p>I was hired by startup company called <a href="https://poadis.com/"><b>POADIS</b></a> on a job to create their website for their alpha release.</p>
+												<center><img src="assets/img/screenshots/poadis.png" class="img-responsive"></center>
+											</div>
+										</li>
+										<li class="narra-fade-li">
+											<div class="content">
+												<h4><b>2016 - ACLC College</b></h4>
+												<p>I was hired as a college teacher at <a href="http://portal.aclcgensan.net/"><b>ACLC</b></a>. I also worked on their localized student management systems.</p>
+												<center><img src="assets/img/screenshots/aclc-web.png" class="img-responsive"></center>
+											</div>
+										</li>
+										<li class="narra-fade-li">
+											<div class="content">
+												<p>During my tenure as a teacher, I coached and won a startup challenge with the idea of automating the issuance of traffic violations in out country.</p>
+												<center><img src="assets/img/screenshots/ligidex.png" class="img-responsive"></center>
+											</div>
+										</li>
+										<li class="narra-fade-li">
+											<div class="content">
+												<h4><b>2015 - MSU</b></h4>
+												<p>I worked as a trainee at <a href="www.msugensan.edu.ph"><b>MSU - GSC</b></a>. During my tenure, I helped create some of the school organization's IT projects which includes creating election systems (E-Boto) and...</p>
+												<center><img src="assets/img/screenshots/eboto-v1-v2.png" class="img-responsive"></center>
+											</div>
+										</li>
+										<li class="narra-fade-li">
+											<div class="content">
+												<p>a mobile app (Mobits).</p>
+												<center><img src="assets/img/screenshots/mobits.png" class="img-responsive"></center>
+											</div>
+										</li>
+										<li class="narra-fade-li">
+											<div class="content">
+												<h4><b>2013 - 2015</b></h4>
+												<p>Even as student, I already worked with the city government's IT department - <a href="http://mabuhaytechnopark.com/"><b>IT PARK</b></a> on some minor startup ideas.</p>
+												<center><img src="assets/img/screenshots/stitches.png" class="img-responsive"></center>
+											</div>
+										</li>
+										<li class="narra-fade-li">
+											<div class="content">
+												<h4><b>2013 - 2015</b></h4>
+												<p>Bellow are some of the studies I conducted. One is a specialized low-cost communication app using webRTC...</p>
+												<center><img src="assets/img/screenshots/ziptalk.png" class="img-responsive"></center>
+											</div>
+										</li>
+										<li class="narra-fade-li">
+											<div class="content">
+												<p>Another is a billing and accounting system for a local High School...</p>
+												<center><img src="assets/img/screenshots/anshs-bfcs.jpg" class="img-responsive"></center>
+											</div>
+										</li>
+										<li class="narra-fade-li">
+											<div class="content">
+												<p>And lastly, a customized coding editor based from a open source <a href="https://codemirror.net/"><b>CODEMIRROR</b></a> and <a href="https://ace.c9.io/"><b>ACE</b></a>.</p>
+												<center><img src="assets/img/screenshots/alpas.jpg" class="img-responsive"></center>
+											</div>
+										</li>
+										<li class="narra-fade-li">
+											<div class="content">
+												<p>Not to brag, but I am a code hobbyist, so a lot of my other projects has not been sited, but you can check it out in my github repository. Thank you.</p>
+											</div>
+										</li>
+									</ul>
+								</section>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- CONTACT INFO -->
+				<div class="narra-contact" id="contact">
+					<div class="container">
+						<div class="row">
+							<div class="col-xl-12 narra-fade-li">
+								<center>
+									<h3 class="narra-contact-title">THANKS FOR VISITING US</h3>
+									<small class="narra-contact-subtitle">- FEEL FREE TO CALL, TEXT OR EMAIL AND I WILL GET BACK AT YOU REAL QUICK -</small>
+									<hr>
+									<p class="narra-contact-light">adeanladia0129@gmail.com <br>+63 928 307 8936</p>
+								</center>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- this is for cover in footer -->
+				<div style="height:45px;"></div>
+
+				<!-- footer -->
+				<footer class="footer navbar-default navbar-fixed-bottom narra-footer">
+					<div class="container">
+						<center><small>adeanladia0129@gmail.com | @Narra '17</small></center>
+					</div>
+				</footer>
+			</div>
+		</div>
+		
+		<!-- local JS -->
+		<!-- Note: components must come first or the main Vue will be looking for registered components -->
+		<script src="assets/js/main@narra.js"></script>
+		<script type="text/javascript" src="assets/js/smooth-scroll.min.js"></script>
+		<script type="text/javascript">
+			function fadeIn(){
+				$(".narra-fade-li").each( function(i){
+					var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+					var bottom_of_window = $(window).scrollTop() + $(window).height();
+					if( bottom_of_window >= (bottom_of_object - 100) ){ $(this).animate({"opacity": "1"}, 1000); }
+				}); 
+			}
+
+			$(document).ready(function() {
+				fadeIn();
+				$(window).scroll( function(){ fadeIn(); });
+			});
+
+			smoothScroll.init();
+		</script>
+	</body>
+</html>
