@@ -31,14 +31,14 @@
 		<!-- vue - watchers control -->
 		<script src="https://unpkg.com/axios@0.12.0/dist/axios.min.js"></script>
 		<script src="https://unpkg.com/lodash@4.13.1/lodash.min.js"></script>
-		
+
 		<!-- JS Dependencies -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</head>
 
 	<body>
-		
+
 		<div id="narra-vue">
 			<div v-cloak class="cloak">
 
@@ -315,16 +315,22 @@
 										</li>
 										<li class="narra-fade-li">
 											<div class="content">
+												<h4><b>2018 - Bookd</b></h4>
+												<p>I was hired for a short maintenance tasks for <a href="https://www.bookd.online/login"><b>Bookd.online</b></a>. A service scheduling system specifically designed to cater models and agents.</p>
+												<center><img src="./assets/img/bookd-talent-going-places.png" style="width: 300px;" class="img-responsive"></center>
+											</div>
+										</li>
+										<li class="narra-fade-li">
+											<div class="content">
 												<h4><b>2017 - Corduro Inc.</b></h4>
 												<p>Currently a part-time programmer at <a href="http://www.corduro.com/"><b>Corduro Inc.</b></a> We build and maintain various web apps like as event portals and <a href="http://monticelloliquor.com/"><b>online stores</b></a>.</p>
-												<center><img src="http://www.corduro.com/wp-content/uploads/2013/05/CORDURO-R.png" class="img-responsive"></center>
 											</div>
 										</li>
 										<li class="narra-fade-li">
 											<div class="content">
 												<h4><b>2017 - Template-Ted</b></h4>
 												<p>I worked with the team from <a href="https://templateted.com/"><b>Template-Ted</b></a> to create an email template editor with <a href="http://grapesjs.com/"><b>GrapesJS</b></a>. I worked through alpha and beta testing before I moved to another project.</p>
-												<center><img src="https://templateted.com/assets/images/logo.png" class="img-responsive"></center>
+												<center><img src="https://templateted.com/images/logos/templateted.png" class="img-responsive"></center>
 											</div>
 										</li>
 										<li class="narra-fade-li">
@@ -452,7 +458,7 @@
 				</footer>
 			</div>
 		</div>
-		
+
 		<!-- local JS -->
 		<!-- Note: components must come first or the main Vue will be looking for registered components -->
 		<script src="assets/js/main@narra.js"></script>
@@ -463,7 +469,7 @@
 					var bottom_of_object = $(this).offset().top + $(this).outerHeight();
 					var bottom_of_window = $(window).scrollTop() + $(window).height();
 					if( bottom_of_window >= (bottom_of_object - 100) ){ $(this).animate({"opacity": "1"}, 1000); }
-				}); 
+				});
 			}
 
 			$(document).ready(function() {
