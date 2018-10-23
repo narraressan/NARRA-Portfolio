@@ -569,3 +569,12 @@ button:focus,
     text-align : center;
     top        : 65%;
     }
+
+.lh-small {
+    line-height: 1.3em !important;
+}
+
+.no-link-color {
+    color: #2b2b3d;
+    text-decoration: none !important;
+}
