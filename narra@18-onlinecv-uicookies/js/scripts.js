@@ -8,6 +8,7 @@ jQuery(function ($) {
 
     (function () {
         $('#preloader').delay(200).fadeOut('slow');
+        $('[data-toggle="tooltip"]').tooltip();
     }());
 
 

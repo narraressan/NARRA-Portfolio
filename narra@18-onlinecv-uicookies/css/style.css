@@ -578,3 +578,14 @@ button:focus,
     color: #2b2b3d;
     text-decoration: none !important;
 }
+
+.img-fluid {
+    width: 40px;
+    padding-top: 0px;
+
+    -webkit-filter: grayscale(100%);
+       -moz-filter: grayscale(100%);
+         -o-filter: grayscale(100%);
+        -ms-filter: grayscale(100%);
+            filter: grayscale(100%);
+}
