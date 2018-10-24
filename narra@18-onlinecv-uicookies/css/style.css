@@ -175,7 +175,7 @@ button:focus,
     }
 
 .left-col-block {
-    width      : 50%;
+    width      : 45%;
     text-align : center;
     overflow   : hidden;
     position   : fixed;
@@ -183,7 +183,7 @@ button:focus,
     }
 
 .right-col-block {
-    width      : 50%;
+    width      : 55%;
     position   : absolute;
     right      : 0;
     box-shadow : -10px -10px 30px rgba(0, 0, 0, 0.23);
