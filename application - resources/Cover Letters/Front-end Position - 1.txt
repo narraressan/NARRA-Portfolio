@@ -1,0 +1,24 @@
+Hi! I am Adean, a Front-end Web Developer specializing in Angular and Vue frameworks.
+
+I have read your job posting and would like to submit my application. I feel that my 4-year industry experience of creating front-end applications may be what you need to achieve your goal.
+
+I have experience creating dashboards, admin portals, and is well versed with integrating 3rd party plugins, themes, and consume RESTful APIs for various functions to create flexible, scalable, and robust frontend applications.
+
+My front-end expertise mainly consists of the following:
+- Proficient in Vue, Angular, and Riot front-end frameworks
+- Implement and maintain Docker and Kubernetes containers
+- Create cross-platform mobile applications with Cordova, NativeScript, Ionic, etc.
+- Design and manage databases (e.g. PSQL, MySQL, MSSQL, MongoDB, CouchDB, etc.)
+- Automated web scraping & data mining
+
+I am fluent with web technologies such as HTML, CSS, JavaScript, and etc. I also have sufficient experience with different frontend MVC frameworks such as PHP’s CodeIgniter and Laravel, Python Flask and Django, and NodeJs.
+
+I look forward to further discuss this employment opportunity with you and help you and your company meet your goals.
+
+Skype:
+narra_ressan
+
+Check out my profile and resume at:
+- narraressan.github.io/narra
+- linkedin.com/in/adean-ladia-930b2012a/view
+- drive.google.com/open?id=1ytUifswNf1cMcvHMhah1movXRITIwKNo

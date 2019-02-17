@@ -1,0 +1,21 @@
+Hi! I am Adean, a Full-Stack Developer and Systems Architect specializing in Databases and Software Development.
+
+I have read your job posting and would like to submit my application. I believe that my 4-year industry experience may be what you need to achieve your goal.
+
+If I have understood correctly, what you want is your own version of WIX or Wordpress where users create and manage their websites and contents on a CMS dashboard. To create this type of application, you will need your very own CMS dashboard and your own version of a website builder, plus a REST service for the backend.
+
+Examples of a free and open source builder:
+- grapesjs.com.
+- bubble.is
+
+* If these plug-ins are too technical, we can design a custom builder which has the features you want to include.
+
+I may not have expertise with WordPress, but I feel that my skill set fits well with the application you have in mind. Feel free to send an email if you'd like to explore this opportunity with me. Thank you.
+
+Skype:
+narra_ressan
+
+Check out my profile and resume at:
+- narraressan.github.io/narra
+- linkedin.com/in/adean-ladia-930b2012a
+- drive.google.com/open?id=1ytUifswNf1cMcvHMhah1movXRITIwKNo

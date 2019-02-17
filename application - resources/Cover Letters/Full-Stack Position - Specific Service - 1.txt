@@ -1,0 +1,15 @@
+Hi! I am Adean, a Full-Stack Developer and Systems Architect specializing in Databases and Software Development.
+
+I have read your job posting and would like to submit my application. I believe that my 4-year industry experience may be what you need to achieve your goal.
+
+Based on what you have described, you will need a user dashboard for the frontend and a REST service for the backend to manage the user transactions. Also, you would likely need to avail a 3rd party SMS broker service since they have the platform for networks to send and receive messages.
+
+I feel that my expertise fits well with the application you are planning to create,  feel free to send an email if you'd like to explore this opportunity with me. Thank you.
+
+Skype:
+narra_ressan
+
+Check out my profile and resume at:
+- narraressan.github.io/narra
+- linkedin.com/in/adean-ladia-930b2012a
+- drive.google.com/open?id=1ytUifswNf1cMcvHMhah1movXRITIwKNo
