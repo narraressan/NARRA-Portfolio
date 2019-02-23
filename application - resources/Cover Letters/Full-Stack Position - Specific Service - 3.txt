@@ -1,0 +1,24 @@
+Hi! I am Adean, a Full-Stack Developer and Systems Architect specializing in Databases and Software Development.
+
+I have read your job posting and would like to submit my application. I believe that my 4-year industry experience may be what you need to achieve your goal.
+
+Based on what you have described, you will need to add a tracker. Depending on your architecture, you can add the pixel tracker on the front-end or invoke an addition API trigger through a custom REST service from the back-end. Either way, you will require a custom platform to manage the exchange which will be another microservice.
+
+I feel that my expertise which spans from creating REST services to creating client UI fits well with the project you have in mind.
+
+Also, my full-stack skills mainly cover the following domain:
+- Proficient in front-end frameworks (e.g. Vue, Angular, and Riot)
+- Proficient in back-end REST frameworks (ExpressJs, Flask, Django Rest, Lumen, and Slim)
+- Design and manage databases (e.g. PSQL, MySQL, MSSQL, MongoDB, CouchDB, etc.)
+- Create cross-platform mobile applications with Cordova and NativeScript
+- Write applications with stack solutions (e.g. CodeIgniter, Laravel, Django and etc.)
+
+Feel free to send an email if you'd like to explore this opportunity with me. Thank you and God bless.
+
+Skype:
+narra_ressan
+
+Check out my profile and resume at:
+- narraressan.github.io/narra
+- linkedin.com/in/adean-ladia-930b2012a
+- drive.google.com/open?id=1ytUifswNf1cMcvHMhah1movXRITIwKNo
