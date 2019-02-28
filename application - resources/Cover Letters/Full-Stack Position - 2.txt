@@ -10,6 +10,7 @@ My full-stack skills mainly cover the following domain:
 - Design and manage databases (e.g. PSQL, MySQL, MSSQL, MongoDB, CouchDB, etc.)
 - Create cross-platform mobile applications with Cordova and NativeScript
 - Write applications with stack solutions (e.g. CodeIgniter, Laravel, Django and etc.)
+- Manage Docker and Kubernetes containers
 
 I am fluent in Python, PHP, and Javascript (Nodejs, TypeScript, Native Script, etc.), and has advanced knowledge with HTML, and CSS.
 
